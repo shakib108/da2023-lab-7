@@ -1,0 +1,16 @@
+{
+	"name": "CustomerOrders",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=dataacademy2023.database.windows.net;initial catalog=master;user id=shakb-belal",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VAMDVDNjE1QzgtN0Q3OC00NkE2LThERkMtQ0YzRTg5MDdCM0UxXzlmMWM2YzI4LTA5NDgtNDU3OC05NzBhLWFiODM5MzFmYmI5ZiINCn0="
+		},
+		"connectVia": {
+			"referenceName": "IntegrationCustomers",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
